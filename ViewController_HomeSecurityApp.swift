@@ -2,6 +2,12 @@
 //  ViewController.swift
 //  HomeSecurity
 //
+//  DISCLAIMER: 
+//  MjpegStreamingController (MjpegPlayer) is a project i use to assist me to with the video-streaming  
+//  Created by Stefano Vettor on 28/03/16.
+//  Copyright © 2016 Stefano Vettor. All rights reserved.
+//
+//  
 //  Created by Christoffer Roth on 2018-01-29.
 //  Copyright © 2018 Christoffer Roth. All rights reserved.
 //
@@ -22,6 +28,7 @@ class ViewController: UIViewController {
     
     /*
      * Variables for the MJPG-stream
+     *
      */
     private var streamingController: MjpegStreamingController!
     private var imageView: UIImageView!
